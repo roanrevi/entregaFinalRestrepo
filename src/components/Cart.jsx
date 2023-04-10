@@ -28,7 +28,8 @@ const Cart = () => {
                 swal("Ingresa tu correo electronico");    
             }
             else{ addDoc(ordersCollection, orden).then(({id}) => setOrdenId(id));
-                swal("Su orden ha sido procesada con exito, su ID para rastrear el servicio es el: " + ordenId)                
+                swal("Su orden ha sido procesada con exito, su ID para rastrear el servicio es el: " + ordenId);
+                 setCart([])  
             } 
         };
 
