@@ -1,0 +1,31 @@
+{
+  "name": "vivacommerce",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "firebase": "^9.19.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.1",
+    "sweetalert": "^2.1.2",
+    "sweetalert2": "^11.7.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "vite": "^4.1.0"
+  },
+  "description": "Esta aplicación es lo que busca presentar al equipo de trabado de la una sede de atención médica, donde se describe a cada una de las personas por su nombre, cargo y fecha de ingreso. El objetivo final es realizar equipos de trabajo para realizar varias actividades, por ejemplo, si se requiere hacer una brigada con niños, que personal puedo usar para esa brigada y si tengo el personal suficiente o adecuado según el cargo.",
+  "main": "vite.config.js",
+  "author": "",
+  "license": "ISC"
+}

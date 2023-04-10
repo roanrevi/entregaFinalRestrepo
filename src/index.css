@@ -1,0 +1,150 @@
+body{
+  font-size: xx-large;
+}
+p{
+  text-align: center;
+  font-size: x-large;
+
+}
+.items p{
+  color: white;
+  margin: 0.5rem ;
+  font-size: smaller;
+}
+.foto-inicio img{
+  width: 50%;  
+  margin: auto;
+  display:flex;
+  flex: content;
+
+}
+
+.contenedor-item{
+  margin: auto;
+  }
+.contenedor-cards{
+  margin: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  grid-auto-rows: minmax(100px, auto);
+}
+.contenedor-item-compra{
+  margin: auto;
+}
+.card-nombre{
+  font-size: 1rem;
+  height: 5rem;
+}
+.card-cargo{
+  font-size: 1rem;
+  height: 3rem;
+}
+.card-body{
+  height: 22rem;
+}
+
+.boton{ 
+  color: blueviolet;
+  width: 2rem;
+  height: 2rem;
+  border-radius:50%;
+  margin: 0.5rem;
+}
+.botons-add{
+  display: flex;
+  justify-content:center;
+  }
+.botons-add button{
+  margin: 0.4rem ;
+  
+}
+.boton-adicionar{
+  display: flex;
+  justify-content:center;
+  
+}
+.boton-adicionar button{
+  border-radius: 10%;
+  background-color: rgb(11, 108, 254);
+  color: white; 
+  font-size:small;
+}
+
+.formulario{
+  display: flex;
+  display: block;
+  justify-content: center;
+  width: 80%;
+ 
+  margin: 5rem 10rem; 
+}
+.formulario label{
+  margin: 1rem 4rem;
+  width: 20rem;
+}
+.formulario input{
+  margin: 1rem 3rem;
+}
+
+.enviar-solicitud{
+  height: 3rem;
+  width: 15rem;
+  margin: 3rem;
+
+
+
+
+}
+.logo{
+  width: 20%;
+}
+.foto-inicio{
+  margin-top: 3rem ;
+}
+.contenedor-item{
+display: flex;
+justify-content: center;
+  margin: auto;
+  margin-top: 3rem;
+}
+.contenedor-item-compra{
+  height: 20rem;
+  width: 50%;
+  margin: auto;
+  margin-top: 3rem;
+}
+.boton-card-compra{
+  margin: 2rem;
+  display: flex;
+  justify-items:flex-start;
+}
+.boton-card-aceptar-compra{
+  margin: auto;
+}
+.cart-mensaje{
+  width: 70%;
+  margin: 10rem auto;
+}
+.total-compra {
+  margin-top: 3rem;
+}
+.imagen{
+  width: 30rem;
+  height: 15rem;
+}
+.regresar{
+  border: solid rgb(24, 14, 14) ;
+  border-radius: 10rem;
+  width: 20rem;
+  font-size: x-large;
+  margin: auto;
+  text-align: center;
+  padding: 1rem;
+  text-decoration: none;
+  
+}
+.regresar a{
+  text-decoration: none;
+}
